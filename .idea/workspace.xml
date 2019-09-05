@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015a9abe-e4ce-4236-868a-686f08a0f5b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innovect/application/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/innovect/application/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innovect/application/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

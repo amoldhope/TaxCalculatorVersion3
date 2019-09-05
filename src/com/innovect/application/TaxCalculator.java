@@ -33,19 +33,13 @@ public class TaxCalculator<Public> {
 
 
             if (object instanceof Food) {
-                TaxSlab taxSlab = TaxSlab.FOOD;
-                int gst = taxSlab.getGstSlabs();
                 totalFoodAmount += object.getPrice();
 
             } else if (object instanceof Furniture) {
-                TaxSlab taxSlab = TaxSlab.FURNITURE;
-                int gst = taxSlab.getGstSlabs();
-                totalFurnitureAmout +=  object.getPrice();
+                 totalFurnitureAmout +=  object.getPrice();
 
             } else if (object instanceof Electronics) {
-                TaxSlab taxSlab = TaxSlab.ELECTRONIX;
-                int gst = taxSlab.getGstSlabs();
-                totalElectronixAmount += object.getPrice();
+                 totalElectronixAmount += object.getPrice();
 
             }
             if (!productDuplicate) {
