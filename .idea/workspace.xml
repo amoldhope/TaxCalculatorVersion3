@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="015a9abe-e4ce-4236-868a-686f08a0f5b9" name="Default Changelist" comment="" />
+    <list default="true" id="015a9abe-e4ce-4236-868a-686f08a0f5b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innovect/application/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innovect/application/TaxCalculator.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +26,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QC0Lry6YHb03vMAFwlChIwVG9R" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -52,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaxCalculatorTest (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.innovect.application.Main" />
       <module name="Assignment-version3" />
@@ -134,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaxCalculatorTest (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TaxCalculatorTest (1)" />
         <item itemvalue="JUnit.TaxCalculatorTest.calculate" />
         <item itemvalue="JUnit.com.innovect.application in Assignment2" />
         <item itemvalue="JUnit.All in Assignment2" />
@@ -154,6 +165,17 @@
       <updated>1567259217951</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment2$TaxCalculatorTest__1_.ic" NAME="TaxCalculatorTest (1) Coverage Results" MODIFIED="1567600094783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

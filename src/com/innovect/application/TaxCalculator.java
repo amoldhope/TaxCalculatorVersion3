@@ -3,10 +3,7 @@ package com.innovect.application;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.security.PublicKey;
 import java.sql.SQLOutput;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TaxCalculator<Public> {
 
@@ -19,10 +16,11 @@ public class TaxCalculator<Public> {
     boolean productDuplicate = false;
     Map<String, Integer> products = new HashMap<>();
 
-    double calculate(List list) {
-        Iterator iterator = list.iterator();
+    double calculate(List<Product> list) {
+        ListIterator<Product> iterator = list.listIterator();
+
         while (iterator.hasNext()) {
-            Product object = (Product) iterator.next();
+            Product object =  iterator.next();
             productDuplicate = false;
 
 
@@ -37,17 +35,17 @@ public class TaxCalculator<Public> {
             if (object instanceof Food) {
                 TaxSlab taxSlab = TaxSlab.FOOD;
                 int gst = taxSlab.getGstSlabs();
-                totalFoodAmount += ((Food) object).price;
+                totalFoodAmount += object.getPrice();
 
             } else if (object instanceof Furniture) {
                 TaxSlab taxSlab = TaxSlab.FURNITURE;
                 int gst = taxSlab.getGstSlabs();
-                totalFurnitureAmout += ((Furniture) object).price;
+                totalFurnitureAmout +=  object.getPrice();
 
             } else if (object instanceof Electronics) {
                 TaxSlab taxSlab = TaxSlab.ELECTRONIX;
                 int gst = taxSlab.getGstSlabs();
-                totalElectronixAmount += ((Electronics) object).price;
+                totalElectronixAmount += object.getPrice();
 
             }
             if (!productDuplicate) {
