@@ -1,9 +1,9 @@
-package com.innovect.application;
+package main.java;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import java.security.PublicKey;
-import java.sql.SQLOutput;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Map;
 
 public class TaxCalculator<Public> {
 
@@ -16,7 +16,7 @@ public class TaxCalculator<Public> {
     boolean productDuplicate = false;
     Map<String, Integer> products = new HashMap<>();
 
-    double calculate(List<Product> list) {
+    public double calculate(List<Product> list) {
         ListIterator<Product> iterator = list.listIterator();
 
         while (iterator.hasNext()) {
@@ -62,9 +62,9 @@ public class TaxCalculator<Public> {
         this.applyGst();
         System.out.println("-----------------------------------------------------");
 
-        System.out.println("Food Bill [GST="+TaxSlab.FOOD.getGstSlabs()+"%]= "+totalFoodAmount+" Rs.");
-        System.out.println("Furniture Bill [GST="+TaxSlab.FURNITURE.getGstSlabs()+"%]= "+totalFurnitureAmout+" Rs.");
-        System.out.println("Electronix Bill [GST="+TaxSlab.ELECTRONIX.getGstSlabs()+"%]= "+totalElectronixAmount+" Rs.");
+        System.out.println("Food Bill [GST="+ TaxSlab.FOOD.getGstSlabs()+"%]= "+totalFoodAmount+" Rs.");
+        System.out.println("Furniture Bill [GST="+ TaxSlab.FURNITURE.getGstSlabs()+"%]= "+totalFurnitureAmout+" Rs.");
+        System.out.println("Electronix Bill [GST="+ TaxSlab.ELECTRONIX.getGstSlabs()+"%]= "+totalElectronixAmount+" Rs.");
 
 
         totalAmount=totalFoodAmount+totalElectronixAmount+totalFurnitureAmout;
@@ -90,8 +90,8 @@ public class TaxCalculator<Public> {
    }
 
    void applyGst(){
-        totalFoodAmount += totalFoodAmount*TaxSlab.FOOD.getGstSlabs()/100;
-        totalFurnitureAmout+=totalFurnitureAmout*TaxSlab.FURNITURE.getGstSlabs()/100;
-        totalElectronixAmount+=totalFurnitureAmout*TaxSlab.ELECTRONIX.getGstSlabs()/100;
+        totalFoodAmount += totalFoodAmount* TaxSlab.FOOD.getGstSlabs()/100;
+        totalFurnitureAmout+=totalFurnitureAmout* TaxSlab.FURNITURE.getGstSlabs()/100;
+        totalElectronixAmount+=totalFurnitureAmout* TaxSlab.ELECTRONIX.getGstSlabs()/100;
    }
 }

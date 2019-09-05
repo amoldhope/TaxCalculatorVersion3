@@ -1,6 +1,6 @@
-package com.innovect.application;
+package main.java;
 
-public class Food extends Product{
+public class Food extends Product {
 
 
     public Food(String name, double price) {

@@ -1,4 +1,4 @@
-package com.innovect.application;
+package main.java;
 
 public class Product {
 

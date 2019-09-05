@@ -1,6 +1,6 @@
-package com.innovect.application;
+package main.java;
 
-public class Furniture extends Product{
+public class Furniture extends Product {
 
 
     public Furniture(String name, double price) {

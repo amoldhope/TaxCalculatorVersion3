@@ -1,4 +1,4 @@
-package com.innovect.application;
+package main.java;
  enum TaxSlab{
 
      FOOD,FURNITURE,ELECTRONIX;
