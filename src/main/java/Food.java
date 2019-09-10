@@ -8,27 +8,37 @@ public class Food extends Product {
     }
 
 
-    public enum Foods{
-        RICE,SUGAR,BISCUITS,WHEAT,JUICE,DAAL;
+    public enum Foods {
+        RICE("Rice"), SUGAR("Sugar"), BISCUITS("Bisciut"), WHEAT("Wheat"), JUICE("Juice"), DAAL("Daal");
 
+        private String label;
 
-        @Override
-        public String toString() {
-            switch (this){
-                case SUGAR:return "Sugar";
-                case RICE:return "Rice";
-                case BISCUITS:return "Bisciut";
-                case WHEAT:return "Wheat";
-                case JUICE:return "Juice";
-                case DAAL:return "Daal";
-
-
-            }
-
-
-            return super.toString();
+        Foods(String foods) {
+            this.label = foods;
         }
+
+        public String getname() {
+
+            return label;
+        }
+
+//        @Override
+//        public String toString() {
+//            switch (this){
+//                case SUGAR:return "Sugar";
+//                case RICE:return "Rice";
+//                case BISCUITS:return "Bisciut";
+//                case WHEAT:return "Wheat";
+//                case JUICE:return "Juice";
+//                case DAAL:return "Daal";
+//
+//
+//            }
+
+
+//            return super.toString();
     }
 }
+
 
 

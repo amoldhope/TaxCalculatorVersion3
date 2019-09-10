@@ -3,20 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="015a9abe-e4ce-4236-868a-686f08a0f5b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment-version3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment-version3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/com/innovect/application/TaxCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TaxCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/com/innovect/application/UserBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment-version3/com/innovect/application/TaxCalculatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment-version3/com/innovect/application/UserBasketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Electronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innovect/application/UserBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Electronics$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Electronics$ElectrnicsAppliences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Electronics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Food$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Food$Foods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Furniture$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Furniture$Furnitures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Furniture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxSlab$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/TaxSlab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/com/innovect/application/UserBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/Food$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/Food$Foods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/Food$Foods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/TaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/TaxCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/UserBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/main/java/UserBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment-version3/test/java/TaxCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment-version3/test/java/TaxCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserBasket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CoolestHourRestApi-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaxCalculatorTest (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="Assignment-version3" />
@@ -163,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaxCalculatorTest (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.TaxCalculatorTest (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TaxCalculatorTest (1)" />
         <item itemvalue="JUnit.TaxCalculatorTest.calculate" />
@@ -182,6 +191,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567259217951</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1567697593971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567697593971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +243,10 @@
         <option value="1" />
       </set>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment2$TaxCalculatorTest__1_.ic" NAME="TaxCalculatorTest (1) Coverage Results" MODIFIED="1567600094783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
