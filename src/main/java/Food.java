@@ -22,21 +22,10 @@ public class Food extends Product {
             return label;
         }
 
-//        @Override
-//        public String toString() {
-//            switch (this){
-//                case SUGAR:return "Sugar";
-//                case RICE:return "Rice";
-//                case BISCUITS:return "Bisciut";
-//                case WHEAT:return "Wheat";
-//                case JUICE:return "Juice";
-//                case DAAL:return "Daal";
-//
-//
-//            }
 
 
-//            return super.toString();
+
+
     }
 }
 
